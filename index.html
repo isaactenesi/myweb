@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isaac Tenesi | Portfolio</title>
+    <link rel="stylesheet" href="mystyle.css">
+    
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="logo">Isaac Tenesi</div>
+        <nav>
+            <div class="mobile-menu">☰</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1>Isaac Tenesi</h1>
+        <p>Welcome to my professional portfolio. I'm passionate about creating innovative solutions and delivering exceptional results.</p>
+        <a href="#contact" class="cta-button">Get In Touch</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <h3>Hello, I'm Isaac Tenesi</h3>
+                <p>I'm a dedicated professional with a strong background in Information Technology, Photography and Digital Data Management. I bridge the gap between technical functionality and creative vision</p>
+                <p>With a Bachelor`s in IT and a decade of professional photography and Adobe editing experience</p>
+                <p>I specialize in creating solutions that are both effective and visually compelling. Skilled in CorelDRAW for design, and constantly inspired by travel and literature</p>
+            </div>
+            <div class="about-image">
+                <!-- Placeholder for your image -->
+                <div class="profile-img" style="background-color: #333; display: flex; align-items: center; justify-content: center; color: var(--text-secondary);">
+                    Your Photo
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2 class="section-title">My Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">💼</div>
+                <h3>Professional Consulting</h3>
+                <p>Providing expert advice and solutions tailored to your specific business needs and challenges.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🚀</div>
+                <h3>Project Development</h3>
+                <p>From concept to completion, I deliver innovative projects that exceed expectations.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">📊</div>
+                <h3>Data Analysis</h3>
+                <p>Transforming complex data into actionable insights to drive informed decision-making.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🎨</div>
+                <h3>Creative Solutions</h3>
+                <p>Developing unique and creative approaches to solve complex problems effectively.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <h2 class="section-title">My Portfolio</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <div class="portfolio-img" style="background-color: #444; display: flex; align-items: center; justify-content: center; color: var(--text-secondary);">
+                    Project Image
+                </div>
+                <div class="portfolio-info">
+                    <h3>Project Title 1</h3>
+                    <p>Brief description of the project, technologies used, and the value delivered.</p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-img" style="background-color: #444; display: flex; align-items: center; justify-content: center; color: var(--text-secondary);">
+                    Project Image
+                </div>
+                <div class="portfolio-info">
+                    <h3>Project Title 2</h3>
+                    <p>Brief description of the project, technologies used, and the value delivered.</p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-img" style="background-color: #444; display: flex; align-items: center; justify-content: center; color: var(--text-secondary);">
+                    Project Image
+                </div>
+                <div class="portfolio-info">
+                    <h3>Project Title 3</h3>
+                    <p>Brief description of the project, technologies used, and the value delivered.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <p>Feel free to reach out to me for any inquiries or collaboration opportunities.</p>
+                <p><strong>Email:</strong> tenesiisaac@gmail.com</p>
+                <p><strong>Location:</strong> [Your City, Country]</p>
+                <p><strong>Availability:</strong> [Your Availability]</p>
+            </div>
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/isaac-tenesi-248107144/">LinkedIn</a>
+            <a href="https://github.com/isaactenesi/Izacbase.git">GitHub</a>
+            <a href="https://x.com/tenesisaac">Twitter</a>
+        </div>
+        <p>&copy; 2025 Isaac Tenesi. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        // Mobile Menu Toggle
+        const mobileMenu = document.querySelector('.mobile-menu');
+        const navMenu = document.querySelector('nav ul');
+
+        mobileMenu.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+
+        // Close mobile menu when clicking on a link
+        document.querySelectorAll('nav ul li a').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+            });
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                const targetSection = document.querySelector(targetId);
+                
+                window.scrollTo({
+                    top: targetSection.offsetTop - 70,
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Form submission
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your message! I will get back to you soon.');
+            this.reset();
+        });
+
+        // Header background on scroll
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            if (window.scrollY > 50) {
+                header.style.backgroundColor = 'rgba(18, 18, 18, 0.95)';
+                header.style.boxShadow = '0 2px 10px rgba(0, 0, 0, 0.1)';
+            } else {
+                header.style.backgroundColor = 'rgba(18, 18, 18, 0.9)';
+                header.style.boxShadow = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
